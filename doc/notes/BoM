@@ -1,0 +1,55 @@
+Rezystory : 
+    - 1206
+    - 0805
+    - 0603
+    - potencjometr monta¿owy
+    - potencjometr g³oœcnikowy (?)
+
+Kondensatory
+    - elektrolit 470uF (Panasonic)
+    - 1206
+    - 0805
+    - 0603
+
+Pó³przewodniki
+    + diody LED (ró¿ne kolory) (dioda zasilania) (x11)      :  20 mA        5V0     : 0805
+    + tranzystory BJT [sterowanie diodami]       (x10)      :                       :
+    + stabilizator 9V                                       :                       : 
+    + stabilizator 5V                                       :                       : 
+    + stabilizator 3V3 (LDO)                                :                       : 
+    - sterownik tablica tranzystorów                        :  10 mA        Vdd     : ULN2803A
+    + konwerter USB <-> UART                                :  25 mA        Vdd     : MCP2221A
+    + konwerter poziomów logicznych RS-232                  :   1 mA        Vdd     : MAX3232
+    - zegar czasu rzeczywistego                             :   3 mA        Vdd     : MCP7941x (I2C)
+    - przetwornik D/A                                       : 400 uA        Vdd     : MCP4725  (I2C)
+    - przetwornik A/D                                       : 400 uA        Vdd     : MCP3425  (I2C)
+    +| termometr                                             :   6 uA        Vdd     : LMT84
+    + szeregowa pamiêæ FLASH                                :  25 mA        3V3     : SST26VF032
+    - konwerter napiêæ 8-bit (2 x SPI : SD + Flash)         :  10 uA (Vdd & 5V/3V3) : TXB0108 (x2 : jeden dla LCD)
+    - konwerter napiêæ 2-bit (WP & HOLD pins : Flash)       :  10 uA (Vdd & 5V/3V3) : TXB0102
+    - ekspander I/O                                         :  10 mA        Vdd     : TCA9554A
+    + karta SD                                              :  30 mA        3V3 
+                                                            -------------------------
+                                                               50 mA        Vdd
+                                                               55 mA        3V3
+                                                               ~5 mA        5V0
+
+Z³¹cza
+    - z³¹cze RS-232
+    - podstawka precyzyjna DIP18/20/28/40
+    - listwy goldpin dwurzêdowe
+    - listwa goldpin k¹towa (PICKit)
+    - listwa goldpin ¿eñska (Arduino)
+    - w³¹cznik k¹towy
+    - z³¹cza œrubowe
+    - gniazdo kart SD
+    - gniazdo na bateriê CR2032
+
+Ró¿noœci:
+    - d³awik 100uH
+    - gniazdo micro USB
+    - gniazdo DC JACK (SMD)
+    - rezonatory 32kHz/4MHz/8MHz (?)
+    - brzêczyk piezoelektryczny
+    - microswitch
+    - joystick microswitch
